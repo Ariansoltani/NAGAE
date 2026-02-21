@@ -1,5 +1,5 @@
 
-# NAGAE: Node Anomaly Graph Autoencoder for Micro-Scale Urban Resilience assessment 🌱🏢
+# NAGAE: Node Anomaly Graph Autoencoder for Micro-Scale Urban Resilience assessment 🏢
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch 2.5.1](https://img.shields.io/badge/PyTorch-2.5.1-EE4C2C.svg)](https://pytorch.org/)
