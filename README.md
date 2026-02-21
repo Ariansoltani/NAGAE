@@ -71,11 +71,11 @@ The framework generates high-resolution (600 DPI) publication-ready plots:
 ## 📝 Citation
 If you use this framework or the NAGAE architecture in your research, please cite:
 ```bibtex
-@article{Soltani2024NAGAE,
+@article{Soltani2026NAGAE,
   title={NAGAE: An Open-Source GNN Framework for Micro-Scale Urban Resilience Modeling Enhanced by Foundation Models},
   author={Soltani, Arian Ali Madad and Tafti, Mojgan Taheri},
   journal={Computers, Environment and Urban Systems},
-  year={2024},
+  year={2026},
   note={Under Review}
 }
 ```
