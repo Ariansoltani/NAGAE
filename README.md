@@ -1,8 +1,5 @@
 code
 Markdown
-download
-content_copy
-expand_less
 # NAGAE: Node Anomaly Graph Autoencoder for Micro-Scale Urban Resilience Assessment 🏢
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
@@ -41,60 +38,27 @@ pip install torch==2.5.1+cu121 torch-geometric
 pip install torch-scatter torch-sparse torch-cluster -f https://data.pyg.org/whl/torch-2.5.1+cu121.html
 pip install umap-learn hdbscan scikit-learn pandas seaborn
 2. Running the Pipeline
-
 Simply open Soltani_NAGAE.ipynb and run all cells. The pipeline follows a rigorous 14-cell workflow:
-
 Preprocessing: Ordinal strength encoding for structural types and MinMaxScaler normalization.
-
-Graph Construction: Building a spatial graph using KNN (
-𝐾
-=
-6
-K=6
-) based on Euclidean distances between parcel centroids.
-
+Graph Construction: Building a spatial graph using KNN (K=6) based on Euclidean distances between parcel centroids.
 Model Training: Unsupervised training with AdamW optimizer and EarlyStopping to prevent overfitting.
-
 Resilience Scoring: Extracting the R-Score by synthesizing PCA-derived structural components (PC1) and reconstruction error.
-
 Typological Clustering: Dimensionality reduction via UMAP (to 10D) followed by K-Means clustering to identify 4 behavioral patterns.
-
-Spatial Smoothing: Applying Majority Vote Smoothing (
-𝐾
-=
-45
-K=45
-) to eliminate spatial noise and create contiguous operational zones.
-
+Spatial Smoothing: Applying Majority Vote Smoothing (K=45) to eliminate spatial noise and create contiguous operational zones.
 Validation: Statistical validation via ANOVA, Silhouette scores, and Random Forest feature importance.
-
 📊 Key Results & Visualization
-
 Running the notebook will generate high-resolution, publication-ready plots directly in the output folder, including:
-
 Resilience Methodology Dashboard: PCA variance and weight sensitivity analysis.
-
 Cluster Feature Profiles: Radar charts illustrating the "Structural DNA" of each urban typology.
-
 Feature Correlation Analysis: Heatmaps detailing the interplay between socio-economic and geophysical drivers.
-
 📂 Repository Contents
-
 Soltani_NAGAE.ipynb: Full, reproducible implementation in Jupyter Notebook format.
-
 data/: Sample geospatial dataset (node features, coordinates, and AlphaEarth embeddings).
-
 results/: Directory for output Excel files (final_results.xlsx) and generated visualizations.
-
 📝 Citation
-
 If you utilize this framework or the NAGAE architecture in your research, please cite our paper:
-
 code
 Bibtex
-download
-content_copy
-expand_less
 @article{Soltani2025NAGAE,
   title={NAGAE: An Open-Source GNN Framework for Micro-Scale Urban Resilience Modeling Enhanced by Foundation Models},
   author={Ali Madad Soltani, Arian and Taheri Tafti, Mojgan},
@@ -103,12 +67,8 @@ expand_less
   note={Under Review}
 }
 📧 Contact
-
 Arian Ali Madad Soltani - ariansoltani@ut.ac.ir
 School of Urban Planning, University of Tehran
-
 code
 Code
-download
-content_copy
-expand_less
+*(نکته: فرمت‌های ریاضی مثل `$K=6$` را هم به فرمت متنی ساده `(K=6)` تغییر دادم تا در گیت‌هاب بدون مشکل و به‌هم‌ریختگی رندر شود و دقیقاً مثل یک متن تمیز نمایش داده شود).*
