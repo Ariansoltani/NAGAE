@@ -10,12 +10,13 @@ openpyxl>=3.1.0
 
 # --- Machine Learning Framework (PyTorch) ---
 # Note: For GPU support, ensure torch matches your CUDA version.
-# The following are based on the Soltani_NAGAE Colab environment.
 torch==2.5.1
 torchvision==0.20.1
-torchaudio==2.5.1
 
 # --- Graph Neural Networks (PyTorch Geometric) ---
+# IMPORTANT: Provide the direct link to pre-compiled wheels to prevent build errors
+--find-links https://data.pyg.org/whl/torch-2.5.1+cu121.html
+
 torch-geometric==2.4.0
 torch-scatter
 torch-sparse
