@@ -1,5 +1,3 @@
-code
-Markdown
 # NAGAE: Node Anomaly Graph Autoencoder for Micro-Scale Urban Resilience Assessment 🏢
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
@@ -37,6 +35,8 @@ The code is optimized for **CUDA 12.1** and **PyTorch 2.5.1**. You can replicate
 pip install torch==2.5.1+cu121 torch-geometric
 pip install torch-scatter torch-sparse torch-cluster -f https://data.pyg.org/whl/torch-2.5.1+cu121.html
 pip install umap-learn hdbscan scikit-learn pandas seaborn
+
+
 2. Running the Pipeline
 Simply open Soltani_NAGAE.ipynb and run all cells. The pipeline follows a rigorous 14-cell workflow:
 Preprocessing: Ordinal strength encoding for structural types and MinMaxScaler normalization.
@@ -57,8 +57,8 @@ data/: Sample geospatial dataset (node features, coordinates, and AlphaEarth emb
 results/: Directory for output Excel files (final_results.xlsx) and generated visualizations.
 📝 Citation
 If you utilize this framework or the NAGAE architecture in your research, please cite our paper:
-code
-Bibtex
+
+
 @article{Soltani2025NAGAE,
   title={NAGAE: An Open-Source GNN Framework for Micro-Scale Urban Resilience Modeling Enhanced by Foundation Models},
   author={Ali Madad Soltani, Arian and Taheri Tafti, Mojgan},
@@ -66,9 +66,7 @@ Bibtex
   year={2025},
   note={Under Review}
 }
+
 📧 Contact
 Arian Ali Madad Soltani - ariansoltani@ut.ac.ir
 School of Urban Planning, University of Tehran
-code
-Code
-*(نکته: فرمت‌های ریاضی مثل `$K=6$` را هم به فرمت متنی ساده `(K=6)` تغییر دادم تا در گیت‌هاب بدون مشکل و به‌هم‌ریختگی رندر شود و دقیقاً مثل یک متن تمیز نمایش داده شود).*
