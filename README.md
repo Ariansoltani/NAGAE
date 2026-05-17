@@ -65,14 +65,6 @@ Running the notebook will generate high-resolution, publication-ready plots dire
 ## 📝 Citation
 If you utilize this framework or the NAGAE architecture in your research, please cite our paper:
 
-    @article{Soltani2025NAGAE,
-      title={NAGAE: An Open-Source GNN Framework for Micro-Scale Urban Resilience Modeling Enhanced by Foundation Models},
-      author={Ali Madad Soltani, Arian and Taheri Tafti, Mojgan},
-      journal={Computers, Environment and Urban Systems},
-      year={2025},
-      note={Under Review}
-    }
-
 ## 📧 Contact
 **Arian Ali Madad Soltani** - [ariansoltani@ut.ac.ir](mailto:ariansoltani@ut.ac.ir)  
 *School of Urban Planning, University of Tehran*
