@@ -65,6 +65,4 @@ Running the notebook will generate high-resolution, publication-ready plots dire
 ## 📝 Citation
 If you utilize this framework or the NAGAE architecture in your research, please cite our paper:
 
-## 📧 Contact
-**Arian Ali Madad Soltani** - [ariansoltani@ut.ac.ir](mailto:ariansoltani@ut.ac.ir)  
-*School of Urban Planning, University of Tehran*
+
