@@ -62,7 +62,3 @@ Running the notebook will generate high-resolution, publication-ready plots dire
 
 ---
 
-## 📝 Citation
-If you utilize this framework or the NAGAE architecture in your research, please cite our paper:
-
-
