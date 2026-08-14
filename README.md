@@ -1,5 +1,4 @@
 
-```markdown
 # NAGAE: Node Attributes-focused Graph AutoEncoder for Micro-Scale Urban Resilience 🏢
 
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
@@ -25,8 +24,6 @@ Moving beyond the traditional Independent and Identically Distributed (IID) assu
 - **Latent Resilience Fingerprint:** Compresses the 79-dimensional input space into a highly cohesive 32-dimensional latent manifold.
 - **Dual-Level Explainability:** Intrinsic interpretability via GAT attention coefficients, complemented by post-hoc policy transparency using Random Forest feature importance.
 
----
-
 ## 🚀 Quick Start & Reproducibility
 
 To ensure full academic transparency, this repository provides a complete, reproducible pipeline via a Jupyter Notebook alongside a representative sample dataset. 
@@ -34,7 +31,6 @@ To ensure full academic transparency, this repository provides a complete, repro
 ### 1. Requirements & Installation
 The codebase is optimized for **CUDA-enabled GPUs** and requires **Python 3.12+**, **PyTorch 2.5.1**, and **PyTorch Geometric 2.8.0**.
 
-```bash
 # Install Core Dependencies
 pip install torch==2.5.1 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 pip install torch_geometric==2.8.0
@@ -42,7 +38,7 @@ pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -
 
 # Install Spatial & Analytical Libraries
 pip install umap-learn scikit-learn pandas seaborn matplotlib openpyxl
-```
+
 
 ### 2. Running the Pipeline
 Open `Soltani_NAGAE.ipynb` and execute the cells. The pipeline follows a rigorous, multi-stage workflow:
@@ -55,7 +51,6 @@ Open `Soltani_NAGAE.ipynb` and execute the cells. The pipeline follows a rigorou
 6. **Operational Zoning:** Application of **Majority Vote Smoothing (K=45)** to bridge the micro-to-meso scale transition, eliminating spatial noise to generate contiguous, actionable planning zones.
 7. **Validation & Interpretability:** Statistical validation via one-way ANOVA and Silhouette analysis, alongside post-hoc semantic alignment using Pearson correlation and Random Forest feature importance.
 
----
 
 ## 📊 Key Outputs & Visualizations
 
